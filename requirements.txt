@@ -1,39 +1,25 @@
-# ===========================
 # Streamlit core
-# ===========================
 streamlit>=1.28.1,<2.20
 
-# ===========================
 # Image processing
-# ===========================
 pillow>=10.4.0,<10.6
 
-# ===========================
 # Data validation / models
-# ===========================
 pydantic>=2.6.2,<2.7
 pydantic-core>=2.6.4,<2.7
 
-# ===========================
 # Numeric computation
-# ===========================
 numpy>=1.26.0,<1.28
 
-# ===========================
 # LangChain & AI
-# ===========================
 langchain>=0.0.335,<1.0
 
-# ===========================
 # Common utilities
-# ===========================
 requests>=2.31,<3.0
 pandas>=2.1,<3.0
 python-dotenv>=1.0,<2.0
 tqdm>=4.66,<5.0
 
-# ===========================
 # Optional AI / NLP helpers
-# ===========================
-transformers>=4.33,<4.35  # lebih spesifik agar Streamlit Cloud lebih mudah build
+transformers>=4.33,<4.35  # versi ringan, build lebih stabil
 sentence-transformers>=2.2,<2.3  # prebuilt wheel tersedia
