@@ -1,3 +1,10 @@
+import sys
+import os
+
+# Menambahkan direktori root project ke sys.path
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
+
 """
 Autonomous AI Developer System - Streamlit UI
 Main dashboard for controlling code generation, validation, and approval workflow
